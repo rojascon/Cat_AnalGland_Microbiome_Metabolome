@@ -1,0 +1,168 @@
+MAG.ID,assembler,Completeness,Contamination,Phylum,Class,Order,Family,Genus,Species,final.name,sp_cultures,genus_cultures,sp_braken,genus_braken,inCultures,inBraken
+metabat.124,megahit,96.89,0.56,Firmicutes,Clostridia,Oscillospirales,Acutalibacteraceae,NA,NA,Acutalibacteraceae,NA,NA,NA,NA,NA,NA
+metabat.1,metaSPADES,96.22,0.56,Firmicutes,Clostridia,Oscillospirales,Acutalibacteraceae,NA,NA,Acutalibacteraceae,NA,NA,NA,NA,NA,NA
+metabat.92,megahit,93.43,1.68,Bacteroidota,Bacteroidia,Bacteroidales,Rikenellaceae,Alistipes,Alistipes putredinis,Alistipes putredinis,N,Y,N,Y,N,N
+metabat.134,metaSPADES,99.04,1.44,Bacteroidota,Bacteroidia,Bacteroidales,Rikenellaceae,Alistipes,Alistipes putredinis,Alistipes putredinis,N,Y,N,Y,N,N
+metabat.32,metaSPADES,80.03,1.42,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Alterileibacterium,NA,Alterileibacterium,NA,N,NA,N,N,N
+metabat.69,metaSPADES,89.91,0.61,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Anaerococcus,Anaerococcus obesiensis,Anaerococcus obesiensis,Y,Y,Y,Y,Y,Y
+metabat.5,megahit,90.78,0,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,NA,NA,Anaerovoracaceae,NA,NA,NA,NA,NA,NA
+metabat.67,metaSPADES,90.07,0,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,NA,NA,Anaerovoracaceae,NA,NA,NA,NA,NA,NA
+metabat.137,megahit,97.21,0,Actinobacteriota,Actinomycetia,Propionibacteriales,Propionibacteriaceae,Arachnia,NA,Arachnia,NA,N,NA,Y,N,Y
+metabat.24,metaSPADES,97.73,0,Actinobacteriota,Actinomycetia,Propionibacteriales,Propionibacteriaceae,Arachnia,NA,Arachnia,NA,N,NA,Y,N,Y
+metabat.93,megahit,97.58,0,Bacteroidota,Bacteroidia,Bacteroidales,NA,NA,NA,Bacteroidales,NA,NA,NA,NA,NA,NA
+metabat.38,metaSPADES,97.58,0.11,Bacteroidota,Bacteroidia,Bacteroidales,NA,NA,NA,Bacteroidales,NA,NA,NA,NA,NA,NA
+metabat.63,megahit,98.46,4.83,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides fragilis,Bacteroides fragilis,Y,Y,Y,Y,Y,Y
+metabat.76,metaSPADES,99.26,0,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides fragilis,Bacteroides fragilis,Y,Y,Y,Y,Y,Y
+metabat.75,megahit,82.07,0,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides heparinolyticus,Bacteroides heparinolyticus,N,Y,Y,Y,N,Y
+metabat.38,megahit,85.62,0.69,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides pyogenes_A,Bacteroides pyogenes,N,Y,N,Y,N,N
+metabat.118,megahit,91.66,1.81,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides stercoris,Bacteroides stercoris,N,Y,Y,Y,N,Y
+metabat.2,megahit,97.86,0.39,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,N,Y,Y,Y,N,Y
+metabat.26,metaSPADES,95.46,0.79,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,N,Y,Y,Y,N,Y
+metabat.72,megahit,95.15,4.89,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides uniformis,Bacteroides uniformis,N,Y,Y,Y,N,Y
+metabat.136,metaSPADES,96.08,0,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides uniformis,Bacteroides uniformis,N,Y,Y,Y,N,Y
+metabat.97,megahit,98.34,2.05,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium adolescentis,Bifidobacterium adolescentis,N,N,Y,Y,N,Y
+metabat.21,metaSPADES,96.36,0.15,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium gallinarum,Bifidobacterium gallinarum,N,N,N,Y,N,N
+metabat.22,megahit,96.82,0.08,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium gallinarum,Bifidobacterium gallinarum,N,N,N,Y,N,N
+metabat.87,megahit,91.26,1.97,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium longum,Bifidobacterium longum,N,N,Y,Y,N,Y
+metabat.140,metaSPADES,82.27,0.54,Actinobacteriota,Actinomycetia,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium longum,Bifidobacterium longum,N,N,Y,Y,N,Y
+metabat.105,megahit,98.29,0.91,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,NA,Blautia,NA,N,NA,Y,N,Y
+metabat.115,metaSPADES,88.41,4.7,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,NA,Blautia,NA,N,NA,Y,N,Y
+metabat.86,metaSPADES,97.76,0.16,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,NA,Blautia,NA,N,NA,Y,N,Y
+metabat.83,megahit,80.97,2.32,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,Blautia_A caecimuris,Blautia caecimuris,N,N,N,Y,N,N
+metabat.73,megahit,96.09,1.28,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter_D helveticus,Campylobacter helveticus,N,N,Y,Y,N,Y
+metabat.152,metaSPADES,87.3,0.78,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter_D helveticus,Campylobacter helveticus,N,N,Y,Y,N,Y
+metabat.29,megahit,93.11,2.28,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter_A rectus,Campylobacter rectus,N,N,Y,Y,N,Y
+metabat.139,metaSPADES,92.11,2.85,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter_A rectus,Campylobacter rectus,N,N,Y,Y,N,Y
+metabat.103,megahit,94.73,1.1,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter_D upsaliensis,Campylobacter upsaliensis,NA,N,NA,Y,N,Y
+metabat.14,megahit,100,0,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Catenibacterium,NA,Catenibacterium,NA,N,NA,N,N,N
+metabat.68,metaSPADES,98.11,0,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Catenibacterium,NA,Catenibacterium ,NA,N,NA,N,N,N
+metabat.102,megahit,99.19,4.84,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,NA,Collinsella,NA,Y,NA,Y,Y,Y
+metabat.84,metaSPADES,100,1.88,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,NA,Collinsella,NA,Y,NA,Y,Y,Y
+metabat.127,megahit,89.85,1.61,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,Collinsella tanakaei,Collinsella tanakaei,N,Y,N,Y,N,N
+metabat.102,metaSPADES,92.91,0.16,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,Collinsella tanakaei,Collinsella tanakaei,N,Y,N,Y,N,N
+metabat.49,megahit,98.3,0.68,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Conchiformibius,NA,Conchiformibius,NA,N,NA,Y,N,Y
+metabat.111,metaSPADES,98.08,0.9,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Conchiformibius,NA,Conchiformibius,NA,N,NA,Y,N,Y
+metabat.111,megahit,85.14,2.91,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriales,NA,NA,Coriobacteriales,NA,NA,NA,NA,NA,NA
+metabat.142,metaSPADES,92.66,2.82,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriales,NA,NA,Coriobacteriales,NA,NA,NA,NA,NA,NA
+metabat.100,metaSPADES,97.02,0,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium amycolatum,Corynebacterium amycolatum,N,Y,Y,Y,N,Y
+metabat.91,megahit,98.4,0,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium auriscanis,Corynebacterium auriscanis,N,Y,N,Y,N,N
+metabat.22,metaSPADES,97.3,0.15,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium auriscanis,Corynebacterium auriscanis,N,Y,N,Y,N,N
+metabat.86,megahit,91.14,1.41,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium frankenforstense,Corynebacterium frankenforstense,Y,Y,Y,Y,Y,Y
+metabat.19,metaSPADES,96.81,0.09,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium frankenforstense,Corynebacterium frankenforstense,Y,Y,Y,Y,Y,Y
+metabat.113,megahit,85.43,1.52,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium glucuronolyticum,Corynebacterium glucuronolyticum,Y,Y,Y,Y,Y,Y
+metabat.114,megahit,96.4,1.05,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium jeikeium,Corynebacterium jeikeium,N,Y,Y,Y,N,Y
+metabat.74,metaSPADES,96.4,0.9,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium jeikeium_A,Corynebacterium jeikeium,N,Y,Y,Y,N,Y
+metabat.89,megahit,85.42,2.35,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium pyruviciproducens,Corynebacterium pyruviciproducens,Y,Y,N,Y,Y,N
+metabat.57,metaSPADES,86.55,0.46,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Corynebacterium,Corynebacterium pyruviciproducens,Corynebacterium pyruviciproducens,Y,Y,N,Y,Y,N
+metabat.132,metaSPADES,98.88,5.01,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus_A avium,Enterococcus avium,N,Y,Y,Y,N,Y
+metabat.46,megahit,90.87,1.33,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,Escherichia coli,Y,Y,Y,Y,Y,Y
+metabat.53,metaSPADES,95.62,0.19,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,Escherichia coli,Y,Y,Y,Y,Y,Y
+metabat.15,metaSPADES,83.29,4.34,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Ezakiella,Ezakiella coagulans,Ezakiella coagulans,N,N,Y,Y,N,Y
+metabat.106,metaSPADES,93.53,1.42,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalicoccus,NA,Faecalicoccus,NA,N,NA,N,N,N
+metabat.45,megahit,92.05,1.71,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalicoccus,NA,Faecalicoccus ,NA,N,NA,N,N,N
+metabat.100,megahit,95.55,3.47,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,NA,Faecalimonas,NA,N,NA,N,N,N
+metabat.34,megahit,99.37,0.65,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,NA,Faecalimonas,NA,N,NA,N,N,N
+metabat.101,metaSPADES,94.32,1.27,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,NA,Faecalimonas,NA,N,NA,N,N,N
+metabat.114,metaSPADES,97.98,0,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,NA,Faecalimonas,NA,N,NA,N,N,N
+metabat.90,megahit,94.74,2.71,Firmicutes,Clostridia,Saccharofermentanales,Fastidiosipilaceae,NA,NA,Fastidiosipilaceae,NA,NA,NA,NA,NA,NA
+metabat.83,metaSPADES,80.85,0,Firmicutes,Clostridia,Saccharofermentanales,Fastidiosipilaceae,NA,NA,Fastidiosipilaceae,NA,NA,NA,NA,NA,NA
+metabat.12,megahit,88.46,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Fenollaria,Fenollaria timonensis,Fenollaria timonensis,N,N,N,Y,N,N
+metabat.93,metaSPADES,89.86,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Fenollaria,Fenollaria timonensis,Fenollaria timonensis,N,N,N,Y,N,N
+metabat.33,megahit,99.33,0.61,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Finegoldia,NA,Finegoldia,NA,N,NA,Y,N,Y
+metabat.70,metaSPADES,98.78,0.61,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Finegoldia,NA,Finegoldia,NA,N,NA,Y,N,Y
+metabat.36,metaSPADES,81.31,1.34,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Finegoldia,Finegoldia magna,Finegoldia magna,N,N,Y,Y,N,Y
+metabat.48,megahit,91.82,3.64,Chloroflexota,Anaerolineae,Anaerolineales,Anaerolineaceae,Flexilinea,NA,Flexilinea,NA,N,NA,N,N,N
+metabat.45,metaSPADES,89.09,3.64,Chloroflexota,Anaerolineae,Anaerolineales,Anaerolineaceae,Flexilinea,NA,Flexilinea,NA,N,NA,N,N,N
+metabat.70,megahit,100,0,Synergistota,Synergistia,Synergistales,Aminobacteriaceae,Fretibacterium,NA,Fretibacterium,NA,N,NA,Y,N,Y
+metabat.34,metaSPADES,98.31,0.62,Synergistota,Synergistia,Synergistales,Aminobacteriaceae,Fretibacterium,NA,Fretibacterium,NA,N,NA,Y,N,Y
+metabat.1,megahit,95.39,1.4,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,NA,Fusobacterium,NA,Y,NA,Y,Y,Y
+metabat.30,megahit,98.88,2.25,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,NA,Fusobacterium,NA,Y,NA,Y,Y,Y
+metabat.95,metaSPADES,98.88,2.81,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,NA,Fusobacterium,NA,Y,NA,Y,Y,Y
+metabat.99,metaSPADES,95.51,0,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,NA,Fusobacterium,NA,Y,NA,Y,Y,Y
+metabat.4,megahit,94.63,0.19,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Gallibacterium,NA,Gallibacterium,NA,N,NA,Y,N,Y
+metabat.59,metaSPADES,97.18,0,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Gallibacterium,NA,Gallibacterium,NA,N,NA,Y,N,Y
+metabat.88,megahit,88.41,2.13,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Helcococcus,Helcococcus kunzii,Helcococcus kunzii,N,N,Y,Y,N,Y
+metabat.25,metaSPADES,86.79,1.83,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Helcococcus,Helcococcus kunzii,Helcococcus kunzii,N,N,Y,Y,N,Y
+metabat.21,megahit,90.43,0.53,Campylobacterota,Campylobacteria,Campylobacterales,Helicobacteraceae,Helicobacter,Helicobacter_B canis,Helicobacter canis,N,N,Y,Y,N,Y
+metabat.55,metaSPADES,95.25,0.82,Campylobacterota,Campylobacteria,Campylobacterales,Helicobacteraceae,Helicobacter,Helicobacter_B canis,Helicobacter canis,N,N,Y,Y,N,Y
+metabat.8,megahit,91.04,0.84,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Holdemanella,NA,Holdemanella,NA,N,NA,N,N,N
+metabat.80,metaSPADES,92.39,0.71,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Holdemanella,NA,Holdemanella ,NA,N,NA,N,N,N
+metabat.101,megahit,95.08,1.5,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Ignavigranum,Ignavigranum ruoffiae,Ignavigranum ruoffiae,N,N,Y,Y,N,Y
+metabat.43,metaSPADES,98.63,1.5,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Ignavigranum,Ignavigranum ruoffiae,Ignavigranum ruoffiae,N,N,Y,Y,N,Y
+metabat.7,megahit,88.26,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Kallipyga,Kallipyga massiliensis,Kallipyga massiliensis,N,N,N,N,N,N
+metabat.42,metaSPADES,95.27,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Kallipyga,Kallipyga massiliensis,Kallipyga massiliensis,N,N,N,N,N,N
+metabat.43,megahit,99.46,0.61,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lacticaseibacillus,Lacticaseibacillus rhamnosus,Lacticaseibacillus rhamnosus,N,Y,Y,Y,N,Y
+metabat.89,metaSPADES,99.46,0.54,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lacticaseibacillus,Lacticaseibacillus rhamnosus,Lacticaseibacillus rhamnosus,N,Y,Y,Y,N,Y
+metabat.76,megahit,98.64,0,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus johnsonii,Lactobacillus johnsonii,Y,Y,Y,Y,Y,Y
+metabat.138,metaSPADES,99.22,1.16,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus johnsonii,Lactobacillus johnsonii,Y,Y,Y,Y,Y,Y
+metabat.10,megahit,98.48,1.34,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Lagierella,NA,Lagierella,NA,N,NA,N,N,N
+metabat.92,metaSPADES,99.39,0.73,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Lagierella,NA,Lagierella,NA,N,NA,N,N,N
+metabat.23,megahit,95.98,0,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Lawsonella,NA,Lawsonella,NA,N,NA,Y,N,Y
+metabat.7,metaSPADES,80.39,0,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Lawsonella,NA,Lawsonella,NA,N,NA,Y,N,Y
+metabat.26,megahit,96.95,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Levyella,Levyella massiliensis,Levyella massiliensis,N,N,N,N,N,N
+metabat.77,metaSPADES,96.95,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Levyella,Levyella massiliensis,Levyella massiliensis,N,N,N,N,N,N
+metabat.50,megahit,96.74,0,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Limosilactobacillus,Limosilactobacillus reuteri,Limosilactobacillus reuteri,N,N,Y,Y,N,Y
+metabat.75,metaSPADES,97.28,0,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Limosilactobacillus,Limosilactobacillus reuteri,Limosilactobacillus reuteri,N,N,Y,Y,N,Y
+metabat.57,megahit,92.34,4.44,Firmicutes,Clostridia,Lutisporales,Lutisporaceae,NA,NA,Lutisporaceae,NA,NA,NA,NA,NA,NA
+metabat.6,metaSPADES,93.55,4.44,Firmicutes,Clostridia,Lutisporales,Lutisporaceae,NA,NA,Lutisporaceae,NA,NA,NA,NA,NA,NA
+metabat.120,megahit,99.42,0.15,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Mediterraneibacter,Mediterraneibacter massiliensis,Mediterraneibacter massiliensis,N,N,N,N,N,N
+metabat.64,metaSPADES,99.36,0.15,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Mediterraneibacter,Mediterraneibacter massiliensis,Mediterraneibacter massiliensis,N,N,N,N,N,N
+metabat.131,megahit,94.74,1.17,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Mediterraneibacter,Mediterraneibacter torques,Mediterraneibacter torques,N,N,N,N,N,N
+metabat.78,metaSPADES,92.08,1.36,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Mediterraneibacter,Mediterraneibacter torques,Mediterraneibacter torques,N,N,N,N,N,N
+metabat.82,megahit,98.42,3.8,Firmicutes,Negativicutes,Selenomonadales,Selenomonadaceae,Megamonas,Megamonas funiformis,Megamonas funiformis,N,N,Y,Y,N,Y
+metabat.31,metaSPADES,96.84,1.9,Firmicutes,Negativicutes,Selenomonadales,Selenomonadaceae,Megamonas,Megamonas funiformis,Megamonas funiformis,N,N,Y,Y,N,Y
+metabat.96,megahit,97.19,0.67,Firmicutes,Negativicutes,Veillonellales,Megasphaeraceae,Megasphaera,Megasphaera elsdenii,Megasphaera elsdenii,N,N,Y,Y,N,Y
+metabat.60,metaSPADES,95.69,1.8,Firmicutes,Negativicutes,Veillonellales,Megasphaeraceae,Megasphaera,Megasphaera elsdenii,Megasphaera elsdenii,N,N,Y,Y,N,Y
+metabat.8,metaSPADES,79.96,1.76,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,Parabacteroides distasonis,Parabacteroides distasonis,N,Y,Y,Y,N,Y
+metabat.39,megahit,91.56,1.22,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Pauljensenia,NA,Pauljensenia,NA,N,NA,Y,N,Y
+metabat.91,metaSPADES,95.76,1.07,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Pauljensenia,NA,Pauljensenia,NA,N,NA,Y,N,Y
+metabat.77,megahit,95.26,1.18,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Pauljensenia,Pauljensenia radingae_A,Pauljensenia radinga,N,N,N,Y,N,N
+metabat.82,metaSPADES,97.39,0.95,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Pauljensenia,Pauljensenia radingae_A,Pauljensenia radingae,N,N,N,Y,N,N
+metabat.36,megahit,95.99,0.72,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Pediococcus,Pediococcus acidilactici,Pediococcus acidilactici,Y,Y,Y,Y,Y,Y
+metabat.121,metaSPADES,90.17,0,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Pediococcus,Pediococcus acidilactici,Pediococcus acidilactici,Y,Y,Y,Y,Y,Y
+metabat.69,megahit,96.5,1.86,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptacetobacter,NA,Peptacetobacter,NA,N,NA,Y,N,Y
+metabat.44,metaSPADES,98.6,0.35,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptacetobacter,NA,Peptacetobacter,NA,N,NA,Y,N,Y
+metabat.107,megahit,85.99,1.22,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,NA,NA,Peptoniphilaceae,NA,NA,NA,NA,NA,NA
+metabat.53,megahit,91.14,3.96,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,NA,NA,Peptoniphilaceae,NA,NA,NA,NA,NA,NA
+metabat.144,metaSPADES,98.17,1.83,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,NA,NA,Peptoniphilaceae,NA,NA,NA,NA,NA,NA
+metabat.58,metaSPADES,83.68,0.7,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,NA,NA,Peptoniphilaceae,NA,NA,NA,NA,NA,NA
+metabat.40,megahit,97.59,3.32,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,NA,Peptoniphilus,NA,Y,NA,Y,Y,Y
+metabat.124,metaSPADES,90.91,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,NA,Peptoniphilus,NA,Y,NA,Y,Y,Y
+metabat.98,metaSPADES,95.98,5.03,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,NA,Peptoniphilus,NA,Y,NA,Y,Y,Y
+metabat.145,megahit,93.16,2.1,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,Peptoniphilus_A grossensis,Peptoniphilus grossensis,N,Y,N,Y,N,N
+metabat.47,megahit,95.1,1.05,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,Peptoniphilus_A lacrimalis,Peptoniphilus lacrimalis,N,Y,N,Y,N,N
+metabat.90,metaSPADES,95.1,0,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Peptoniphilus,Peptoniphilus_A lacrimalis,Peptoniphilus llacrimalis,N,Y,N,Y,N,N
+metabat.128,megahit,96.5,0,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,NA,NA,Peptostreptococcaceae,NA,NA,NA,NA,NA,NA
+metabat.141,metaSPADES,97.2,0,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,NA,NA,Peptostreptococcaceae,NA,NA,NA,NA,NA,NA
+metabat.117,megahit,98.95,0,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus canis,Peptostreptococcus canis,Y,Y,N,N,Y,N
+metabat.72,metaSPADES,98.6,0.37,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus canis,Peptostreptococcus canis,Y,Y,N,N,Y,N
+metabat.108,megahit,96.27,0,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus russellii_A,Peptostreptococcus russellii,Y,Y,N,N,Y,N
+metabat.96,metaSPADES,97.07,0,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus russellii_A,Peptostreptococcus russellii,Y,Y,N,N,Y,N
+metabat.52,megahit,99.25,4.44,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Phocaeicola,Phocaeicola vulgatus,Phocaeicola vulgatus,N,N,Y,Y,N,Y
+metabat.2,metaSPADES,97.93,0.47,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Phocaeicola,Phocaeicola vulgatus,Phocaeicola vulgatus,N,N,Y,Y,N,Y
+metabat.80,megahit,95.6,0.63,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,NA,Porphyromonas,NA,N,NA,Y,N,Y
+metabat.98,megahit,89.29,1.89,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,NA,Porphyromonas,NA,N,NA,Y,N,Y
+metabat.10,metaSPADES,85.46,0.31,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,NA,Porphyromonas,NA,N,NA,Y,N,Y
+metabat.117,metaSPADES,98.64,0.31,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,NA,Porphyromonas,NA,N,NA,Y,N,Y
+metabat.23,metaSPADES,90.5,1.42,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,NA,Porphyromonas ,NA,N,NA,Y,N,Y
+metabat.20,megahit,99.92,0.47,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas gulae,Porphyromonas gulae,N,N,N,Y,N,N
+metabat.135,metaSPADES,99.61,0,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas gulae,Porphyromonas gulae,N,N,N,Y,N,N
+metabat.130,megahit,99.61,2.2,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas macacae,Porphyromonas macacae,N,N,N,Y,N,N
+metabat.107,metaSPADES,97.72,3.62,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas macacae,Porphyromonas macacae,N,N,N,Y,N,N
+metabat.104,megahit,100,1.62,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Proteus,Proteus mirabilis,Proteus mirabilis,Y,Y,Y,Y,Y,Y
+metabat.5,metaSPADES,98.65,0,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Proteus,Proteus mirabilis,Proteus mirabilis,Y,Y,Y,Y,Y,Y
+metabat.16,megahit,97.44,1.17,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Ruminococcus,Ruminococcus_B gnavus,Ruminococcus gnavus,N,N,Y,Y,N,Y
+metabat.63,metaSPADES,91,0,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Ruminococcus,Ruminococcus_B gnavus,Ruminococcus gnavus,N,N,Y,Y,N,Y
+metabat.123,megahit,82.58,1.61,Firmicutes,Bacilli,Staphylococcales,Staphylococcaceae,Staphylococcus,Staphylococcus pseudintermedius,Staphylococcus pseudintermedius,N,N,Y,Y,N,Y
+metabat.62,metaSPADES,89.29,1.47,Firmicutes,Bacilli,Staphylococcales,Staphylococcaceae,Staphylococcus,Staphylococcus pseudintermedius,Staphylococcus pseudintermedius,N,N,Y,Y,N,Y
+metabat.31,megahit,100,0,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus canis,Streptococcus canis,Y,Y,Y,Y,Y,Y
+metabat.133,metaSPADES,100,0,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus canis,Streptococcus canis,Y,Y,Y,Y,Y,Y
+metabat.134,megahit,82.61,0,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Sutterella,Sutterella wadsworthensis_A,Sutterella wadsworthensis,N,N,Y,Y,N,Y
+metabat.125,metaSPADES,85.71,0,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Sutterella,Sutterella wadsworthensis_A,Sutterella wadsworthensis,N,N,Y,Y,N,Y
+metabat.84,megahit,99.78,0,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Trueperella,NA,Trueperella,NA,N,NA,Y,N,Y
+metabat.3,metaSPADES,99.78,0,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Trueperella,NA,Trueperella,NA,N,NA,Y,N,Y
+metabat.61,megahit,82.76,0.7,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Urinicoccus,NA,Urinicoccus,NA,N,NA,N,N,N
+metabat.71,megahit,88.75,1.28,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Urinicoccus,NA,Urinicoccus,NA,N,NA,N,N,N
+metabat.126,metaSPADES,82.54,0.93,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Urinicoccus,NA,Urinicoccus,NA,N,NA,N,N,N
+metabat.145,metaSPADES,90.08,0.7,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,Urinicoccus,NA,Urinicoccus,NA,N,NA,N,N,N
+metabat.143,metaSPADES,81.81,2.44,Actinobacteriota,Actinomycetia,Actinomycetales,Actinomycetaceae,Varibaculum,Varibaculum cambriense_A,Varibaculum cambriense,N,N,N,Y,N,N

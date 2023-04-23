@@ -1,0 +1,32 @@
+sampleID,sample_date,name,catID,swab_type,DOB,age_ms,age_yrs,age_cat,sex,breed,bod_weight_kg,bod_cond,obese,environment,antibiotics,diet,diet_bi,Periodontal
+ASW35,6-Jan-22,Mia,73-35-93,Anal.Sac,20-Jan-20,24,2,2-5,F,DSH,3.5,4,Not OB,indoor,N,Wet,Other,N
+ASW45,26-Jan-22,Virginia,72-91-26,Perianal,22-Nov-19,27,2.25,2-5,F,DSH,6.3,8,OB,indoor.outdoor,N,Wet.Dry,Other,Y
+ASW51,26-Jan-22,Virginia,72-91-26,Anal.Sac,22-Nov-19,27,2.25,2-5,F,DSH,6.3,8,OB,indoor.outdoor,N,Wet.Dry,Other,Y
+ASW15,2-Mar-22,Wiley,71-61-19,Anal.Sac,20-Apr-18,47,3.916666667,2-5,M,Siamese,5.8,6,Not OB,indoor.outdoor,N,Dry,Dry,N
+ASW50,14-Jan-22,Goose,73-38-06,Anal.Sac,1-Jan-18,48.5,4.041666667,2-5,F,DSH,4.6,6,Not OB,indoor,N,Dry,Dry,N
+ASW62,14-Jan-22,Goose,73-38-06,Perianal,1-Jan-18,48.5,4.041666667,2-5,F,DSH,4.6,6,Not OB,indoor,N,Dry,Dry,N
+ASW65,13-Jan-22,StellaLuna,73-40-03,Anal.Sac,1-Jan-18,48.5,4.041666667,2-5,F,DSH,5.5,6,Not OB,indoor,N,Wet.Dry,Other,N
+ASW20,12-Jan-22,Butter,73-39-94,Anal.Sac,11-Dec-17,49,4.083333333,2-5,F,DSH,2,4,Not OB,indoor,N,Wet,Other,Y
+ASW37,2-Mar-22,PipSqueek,42-17-94,Anal.Sac,2-Apr-17,59,4.916666667,2-5,F,DSH,4.4,5,Not OB,indoor.outdoor,N,Dry,Dry,Y
+ASW69,30-Mar-22,Cooper,72-50-29,Perianal,20-Jan-17,62,5.166666667,2-5,M,DSH,5.4,5,Not OB,indoor,N,Other,Other,N
+ASW74,30-Mar-22,Cooper,72-50-29,Anal.Sac,20-Jan-17,62,5.166666667,2-5,M,DSH,5.4,5,Not OB,indoor,N,Other,Other,N
+ASW66,30-Mar-22,Lucinda,72-91-01,Anal.Sac,1-Oct-16,65,5.416666667,2-5,F,DSH,4.6,5,Not OB,indoor,N,Wet,Other,Y
+ASW19,23-Feb-22,Diamond,71-35-93,Anal.Sac,25-Jul-16,67,5.583333333,2-5,F,DSH,4.7,5,Not OB,indoor,N,Dry,Dry,N
+ASW47,10-Feb-22,Bailey,45-88-52,Anal.Sac,22-Sep-15,77,6.416666667,6-8,M,DSH,5.5,7,Not OB,indoor,N,Dry,Dry,N
+ASW31,29-Nov-21,Matty,71-68-75,Anal.Sac,1-Jan-15,83,6.916666667,6-8,M,DLH,10.3,9,OB,indoor.outdoor,N,Dry,Dry,N
+ASW3,2-Jan-22,Gabby,73-35-35,Perianal,1-Jan-15,84,7,6-8,F,DSH,6.7,7,Not OB,indoor,N,Dry,Dry,N
+ASW59,2-Jan-22,Gabby,73-35-35,Anal.Sac,1-Jan-15,84,7,6-8,F,DSH,6.7,7,Not OB,indoor,N,Dry,Dry,N
+ASW49,24-Feb-22,Cheddar,73-39-40,Perianal,14-Jul-14,91,7.583333333,6-8,M,DSH,6,6.5,Not OB,indoor,N,Dry,Dry,Y
+ASW54,24-Feb-22,Cheddar,73-39-40,Anal.Sac,14-Jul-14,91,7.583333333,6-8,M,DSH,6,6.5,Not OB,indoor,N,Dry,Dry,Y
+ASW7,17-Dec-21,MiloMahmood,46-74-25,Anal.Sac,22-Apr-13,104,8.666666667,6-8,M,DSH,5.5,6,Not OB,indoor.outdoor,N,Dry,Dry,N
+ASW22,21-Dec-21,Milo,73-31-22,Anal.Sac,1-Jan-13,107,8.916666667,6-8,M,DSH,3.6,3,Not OB,indoor,Y,Dry,Dry,N
+ASW68,7-Apr-22,Callie,47-50-54,Anal.Sac,1-Jan-13,111,9.25,9,F,DLH,4.6,7,Not OB,indoor.outdoor,N,Wet.Dry,Other,Y
+ASW56,10-Feb-22,Tomato,71-61-30,Anal.Sac,15-Oct-12,112,9.333333333,9,M,DSH,6.1,8,OB,indoor,N,Dry,Dry,N
+ASW67,7-Apr-22,Milkman,71-69-23,Anal.Sac,12-Jan-12,122,10.16666667,>10,M,ASH,7.3,8,OB,indoor,N,Wet.Dry,Other,Y
+ASW29,17-Dec-21,Orange,73-30-69,Anal.Sac,1-Jan-11,131,10.91666667,>10,F,DSH,3.4,3,Not OB,indoor.outdoor,N,Dry,Dry,N
+ASW11,17-Feb-22,Puuu,71-79-22,Anal.Sac,15-Jul-10,139,11.58333333,>10,F,DSH,5.9,7,Not OB,indoor,N,Wet.Dry,Other,Y
+ASW2,24-Mar-22,MiloHu,47-45-01,Anal.Sac,5-Oct-09,149,12.41666667,>10,M,DSH,6.3,6,Not OB,indoor,N,Wet.Dry,Other,Y
+ASW38,17-Feb-22,Cannoli,73-49-96,Anal.Sac,30-Jun-07,176,14.66666667,>10,M,DSH,4.5,7,Not OB,indoor,N,Dry,Dry,N
+ASW64,17-Feb-22,Cannoli,73-49-96,Perianal,30-Jun-07,176,14.66666667,>10,M,DSH,4.5,7,Not OB,indoor,N,Dry,Dry,N
+ASW73,30-Mar-22,Blank Glove,72-50-29,Blank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ASW16,24-Mar-22,Blank Swab,47-45-01,Blank,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
