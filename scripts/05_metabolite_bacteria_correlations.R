@@ -112,16 +112,16 @@ write.csv(gres2,"Trueperella pyogenes.csv",row.names=F);
 #             5.  Only keep significant correlations (p>0.05)
 ################################################################################
 
-# I compiled the results from the 40 bacterial species into one file
+# I compiled the results from the 40 bacterial species into one Excel file
 # one file has the rho values, the other has the adjusted p.values
-rhos=read.csv("data/rho_bacteria_metabolites.csv",row.names = 1, header=T);
-pvals=read.csv("data/padj_bacteria_metabolites.csv",row.names = 1, header=T);
+rhos=read.csv("data/05_rho_bacteria_metabolites.csv",row.names = 1, header=T);
+pvals=read.csv("data/05_padj_bacteria_metabolites.csv",row.names = 1, header=T);
 
 # remove non-sig correlations
-rhos[pvals>0.05]="NA"
-pvals[pvals>0.05]="NA"
+rhos[pvals>0.05]="NA";
+pvals[pvals>0.05]="NA";
 View(rhos); View(pvals);
 
 # save the significant correlations to their own files
-#rhos=read.csv("rhos_significant.csv",row.names = 1, header=T);
-#pees=read.csv("padj_significant.csv",row.names = 1, header=T);
+# write.csv(rhos,file="rhos_significant.csv",row.names = T);
+# write.csv(pvals,file="pvals_significant.csv",row.names = T);
