@@ -30,7 +30,7 @@ meta=read.csv("data/00_sample_metadata.csv", stringsAsFactors = F);
 
 meta$DOB=as.Date(meta$DOB, format="%d-%b-%y");
 meta$sample_date=as.Date(meta$sample_date, format="%d-%b-%y");
-meta$age_cat=factor(meta$age_cat, levels=c("2-5","6-8","9",">10"));
+meta$age_cat=factor(meta$age_cat, levels=c("2-5","6-8","9","10+"));
 meta$obese=factor(meta$obese);
 meta$environment=factor(meta$environment);
 meta$diet_bi=factor(meta$diet_bi, levels=c("Dry","Other"));

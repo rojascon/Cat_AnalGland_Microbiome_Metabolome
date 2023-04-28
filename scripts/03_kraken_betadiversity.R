@@ -102,7 +102,7 @@ for(i in 1:3)
 # calculate coordinates for PCoA
 pcoa_dec=cmdscale(jac.dist, eig=TRUE);  
 pcoa=as.data.frame(pcoa_dec$points);
-colnames(pcoa)=c("Axis1","Axis2");  # STOP for metabolome
+colnames(pcoa)=c("Axis1","Axis2");  
 pcoa=tibble::rownames_to_column(as.data.frame(pcoa), "sampleID");
 pcoa_met=merge(pcoa,meta2,by="sampleID"); 
 
@@ -115,7 +115,7 @@ ax2=format(pcoa_per[2], digits=2, nsmall=2);
 my_col=c("#253494","#7fcdbb","hotpink","gold");
 pcoa1=ggplot(pcoa_met, aes(Axis1, Axis2))+
   geom_point(mapping=aes(fill=age_cat), 
-             size = 2.5,
+             size = 2.7,
              shape=21)+
   labs(y=paste("PC2 (",ax2,"%)",sep=""),
        x=paste("PC1 (",ax1,"%)",sep=""),
@@ -137,7 +137,7 @@ pcoa1=ggplot(pcoa_met, aes(Axis1, Axis2))+
 # plot PCoA color-coded by obesity (Y vs N)
 pcoa2=ggplot(pcoa_met, aes(Axis1, Axis2))+
   geom_point(mapping=aes(fill=obese), 
-             size = 2.5,
+             size = 2.7,
              shape=21)+
   labs(y=paste("PC2 (",ax2,"%)",sep=""),
        x=paste("PC1 (",ax1,"%)",sep=""),
