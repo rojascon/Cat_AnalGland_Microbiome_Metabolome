@@ -134,13 +134,10 @@ vmp1=ggplot(cdf, aes(x=Axis1, y=PC1))+
   theme_classic()+labs(title = "")+
   labs(y="Metabolite PC1",
        x="Microbiome PC1")+
-  theme(legend.title=element_blank(),text = element_text(size=12),
-        legend.position="right",
-        plot.title = element_text(size=12, face="bold"), 
-        axis.text.y=element_text(size=11),
-        axis.text.x=element_text(size=11),
-        axis.title.x=element_text(size=12, face="bold"),
-        axis.title.y=element_text(size=12, face="bold")); plot(vmp1);
+  theme(axis.text.y=element_text(size=13),
+        axis.text.x=element_text(size=13),
+        axis.title.x=element_text(size=13, face="bold"),
+        axis.title.y=element_text(size=13, face="bold")); plot(vmp1);
 
 # plot volatile PC2 ~ microbiome PC2
 cdf=data.frame(pcoa$Axis2, y=pcoa2$Axis2);
@@ -152,13 +149,10 @@ vmp2=ggplot(cdf, aes(x=Axis2, y=PC2))+
   theme_classic()+labs(title = "")+
   labs(y="Metabolite PC2",
        x="Microbiome PC2")+
-  theme(legend.title=element_blank(),text = element_text(size=12),
-        legend.position="right",
-        plot.title = element_text(size=12, face="bold"), 
-        axis.text.y=element_text(size=11),
-        axis.text.x=element_text(size=11),
-        axis.title.x=element_text(size=12, face="bold"),
-        axis.title.y=element_text(size=12, face="bold")); plot(vmp2);
+  theme(axis.text.y=element_text(size=13),
+        axis.text.x=element_text(size=13),
+        axis.title.x=element_text(size=13, face="bold"),
+        axis.title.y=element_text(size=13, face="bold")); plot(vmp2);
 
 # save images
 vmplot=arrangeGrob(vmp1,vmp2, nrow=1);

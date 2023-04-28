@@ -209,7 +209,7 @@ ggsave(filename = 'figures/09_MAG19_phylogeny.png',
 
 # remove MAGs not classified to Species-level
 msp=mag[complete.cases(mag$Species),];
-msp=msp[,c(10,11,13)];
+msp=msp[,c(11,12,14)];
 msp=msp[!duplicated(msp$final.name),];
 
 # melt data frame for ggplot
@@ -217,6 +217,7 @@ mspp<-reshape2::melt(msp, id.vars="final.name",value.name = "appear");
 mspp$variable=as.character(mspp$variable);
 mspp$variable[mspp$variable=="sp_cultures"]="Cultured isolate";
 mspp$variable[mspp$variable=="sp_braken"]="Microbiome data";
+mspp$final.name=forcats::fct_rev(factor(mspp$final.name));
 
 # plot
 magplot=ggplot(data=mspp, aes(x=final.name, 
