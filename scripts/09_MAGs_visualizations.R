@@ -216,7 +216,7 @@ msp=msp[!duplicated(msp$final.name),];
 mspp<-reshape2::melt(msp, id.vars="final.name",value.name = "appear");
 mspp$variable=as.character(mspp$variable);
 mspp$variable[mspp$variable=="sp_cultures"]="Cultured isolate";
-mspp$variable[mspp$variable=="sp_braken"]="Microbiome data";
+mspp$variable[mspp$variable=="sp_braken"]="Metagenome data";
 mspp$final.name=forcats::fct_rev(factor(mspp$final.name));
 
 # plot
