@@ -70,7 +70,7 @@ bray<-apply(kspe, 2, function(i) (i/sum(i))*100);
 jac=(kspe>0)*1;
 
 # clr (center log ratio) for Aitchison distance ("compositions")
-clra=data.frame(clr(kspe));
+clra=data.frame(compositions::clr(kspe));
 
 # generate distance matrices
 ps1<- phyloseq(otu_table(bray, taxa_are_rows=TRUE));

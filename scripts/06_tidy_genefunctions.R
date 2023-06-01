@@ -58,7 +58,6 @@ keggabun=aggregate(.~gf,kc, sum);
 save(keggabun, file="data/06_KOfam_abundances_spades.Rdata");
 
 
-
 ################################################################################
 #             3. Tidy and subset KEGG Modules (aka 'pathways')          
 ################################################################################

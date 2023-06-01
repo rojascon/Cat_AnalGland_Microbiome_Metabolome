@@ -70,8 +70,8 @@ cjac=(cogabun>0)*1;
 kjac=(keggabun>0)*1;
 
 # clr (center log ratio) tranformation for Aitchison distance 
-cclra=data.frame(clr(cogabun));
-kclra=data.frame(clr(keggabun));
+cclra=data.frame(compositions::clr(cogabun));
+kclra=data.frame(compositions::clr(keggabun));
 
 
 ################################################################################

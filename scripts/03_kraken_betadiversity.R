@@ -50,8 +50,8 @@ bray<-apply(kspe, 2, function(i) (i/sum(i))*100);
 # presence absence for Jaccard
 jac=(kspe>0)*1;
 
-# clr (center log ratio) for Aitchison distance ("compositions")
-clra=data.frame(clr(kspe));
+# clr (center log ratio) for Aitchison distance
+clra=data.frame(compositions::clr(kspe));
 
 # generate distance matrices
 ps1<- phyloseq(otu_table(bray, taxa_are_rows=TRUE));
@@ -82,7 +82,7 @@ met=c("jaccard","bray","aitchison");
 for(i in 1:3)
 {
   print(paste("PERMANOVA test, anal sac, N=23, using:", names[i]));
-  print(adonis2(mydist[[i]]~
+  print(vegan::adonis2(mydist[[i]]~
                   age_yrs+
                   obese+
                   environment+
@@ -101,7 +101,7 @@ for(i in 1:3)
 
 # calculate coordinates for PCoA
 pcoa_dec=cmdscale(jac.dist, eig=TRUE);  
-pcoa=as.data.frame(pcoa_dec$points);
+pcoa=data.frame(pcoa_dec$points);
 colnames(pcoa)=c("Axis1","Axis2");  
 pcoa=tibble::rownames_to_column(as.data.frame(pcoa), "sampleID");
 pcoa_met=merge(pcoa,meta2,by="sampleID"); 
@@ -124,7 +124,7 @@ pcoa1=ggplot(pcoa_met, aes(Axis1, Axis2))+
   theme_bw()+
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        panel.background = element_rect(colour = "black", size=2),
+        panel.background = element_rect(colour = "black", linewidth=2),
         legend.position="right",
         legend.text=element_text(size=13),
         legend.title=element_text(size=13, face="bold"),
@@ -146,7 +146,7 @@ pcoa2=ggplot(pcoa_met, aes(Axis1, Axis2))+
   theme_bw()+
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        panel.background = element_rect(colour = "black", size=2),
+        panel.background = element_rect(colour = "black", linewidth=2),
         legend.position="right",
         legend.text=element_text(size=13),
         legend.title=element_text(size=13, face="bold"),

@@ -102,7 +102,7 @@ for(i in 1:nrow(vocdata))
   gres2=rbind(gres2,tempdf);
 };
 
-gres2$padj=p.adjust(gres2$pval, method="fdr", n=length(gres2$pval));
+gres2$padj=stats::p.adjust(gres2$pval, method="fdr", n=length(gres2$pval));
 
 # save each output manually
 write.csv(gres2,"Trueperella pyogenes.csv",row.names=F);
