@@ -8,7 +8,7 @@
 #
 #                       By: Connie Rojas
 #                       Created: 17 July 2022
-#                       Last updated: 20 April 2023
+#                       Last updated: 29 September 2023
 #
 ################################################################################
 
@@ -234,7 +234,7 @@ kgen2[nrow(kgen2),1]="Other";
 genbar<-reshape2::melt(kgen2, id.vars="taxa",value.name = "abun");
 colnames(genbar)[2]="sampleID";
 genbar=merge(genbar, meta2, by="sampleID");
-genbar$swab_type[genbar$swab_type=="Anal.Sac"]="Anal.Gland";
+genbar$swab_type[genbar$swab_type=="Anal.Sac"]="Anal Gland";
 
 # plot (do this for each cutoff);
 barp3=ggplot(data=genbar, 
@@ -247,6 +247,7 @@ barp3=ggplot(data=genbar,
        fill="Bacterial Genus",
        title="")+
   scale_fill_manual(values=fam_col)+
+  scale_x_discrete(labels=c("Cat1","Cat2","Cat3","Cat4","Cat5","Cat6"))+
   theme(legend.position="right", 
         legend.text = element_text(size=13),
         legend.title = element_text(size=13, face="bold"),
@@ -261,7 +262,7 @@ barp3=ggplot(data=genbar,
         axis.title.x = element_text(size=13, face="bold")); plot(barp3);
 
 # save image
-ggsave(filename="02_Genus_PerianalvAnalGland_1.75.png",
+ggsave(filename="02_Genus_PerianalvAnalGland_0.37.png", #_1.75 or _0.37
        device="png",path="./figures",
        plot=barp3,
        width=7.4,

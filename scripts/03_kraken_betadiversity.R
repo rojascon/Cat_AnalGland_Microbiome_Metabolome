@@ -43,24 +43,19 @@ kspe=kspe[,order(colnames(kspe))];
 ################################################################################
 #             2. Transform data and then calculate 3 types of distances
 ################################################################################
-
-# relative abundances for Bray-Curtis
-bray<-apply(kspe, 2, function(i) (i/sum(i))*100);
-
-# presence absence for Jaccard
-jac=(kspe>0)*1;
-
-# clr (center log ratio) for Aitchison distance
-clra=data.frame(compositions::clr(kspe));
-
-# generate distance matrices
+# bray-curtis
+bray=data.frame(apply(kspe, 2, function(i) (i/sum(i))*100),check.names=F);
 ps1<- phyloseq(otu_table(bray, taxa_are_rows=TRUE));
 bray.dist=phyloseq::distance(ps1, method="bray");
 
+# jaccard
+jac=(kspe>0)*1;
 ps2<- phyloseq(otu_table(jac, taxa_are_rows=TRUE));
 jac.dist=phyloseq::distance(ps2, method="jaccard",binary=T);
 
-ps3<- phyloseq(otu_table(clra, taxa_are_rows=TRUE));
+# aitchison distance
+ps3=phyloseq(otu_table(kspe,taxa_are_rows=TRUE));
+ps3=microbiome::transform(ps3,"clr",target="OTU");
 clr.dist=phyloseq::distance(ps3, method="euclidean");
 
 # save the three distance matrices because will need them in future scripts
@@ -112,15 +107,15 @@ ax1=format(pcoa_per[1], digits=2, nsmall=2);
 ax2=format(pcoa_per[2], digits=2, nsmall=2);
 
 # plot PCoA color-coded by age (yrs)
-my_col=c("#253494","#7fcdbb","hotpink","gold");
+fair_cols <- c("#38170B","#BF1B0B", "#FFC465", "#66ADE5", "#225ea8");
 pcoa1=ggplot(pcoa_met, aes(Axis1, Axis2))+
-  geom_point(mapping=aes(fill=age_cat), 
+  geom_point(mapping=aes(fill=age_yrs), 
              size = 2.7,
              shape=21)+
   labs(y=paste("PC2 (",ax2,"%)",sep=""),
        x=paste("PC1 (",ax1,"%)",sep=""),
        fill="Age (yrs)")+
-  scale_fill_manual(values=my_col)+
+  scale_fill_gradientn(colours = fair_cols,breaks = c(2,6,10,14))+
   theme_bw()+
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
